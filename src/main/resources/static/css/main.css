@@ -1,0 +1,60 @@
+html {
+	font-size: 14px;
+	line-height: 4;
+}
+
+.navbar {
+	/* background-color: #054a71; */
+}
+
+.divContainer {
+	position: fixed;
+	top: 350px;
+	left: 53%;
+	/* left: 600px; */
+	/*	margin-right: -50%;	*/
+	transform: translate(-50%, -50%);
+}
+/*
+.firstTable {
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+*/
+.firstTable, th, td {
+	padding: 0px 0px 5px 15px;
+	padding-top: 5px;
+	border-collapse: collapse;
+	vertical-align: middle;
+}
+
+.firstCell {
+	width: 470px;
+}
+
+td {
+	width: 450px;
+}
+
+td+td {
+	width: 200px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+table, th {
+	vertical-align: middle;
+}
+
+.btn-sm {
+	width: 120px;
+	height: 40px;
+}
+
+#successDiv {
+	visibility: hidden;
+}
+
+#trDiv div {
+	display: none;
+}

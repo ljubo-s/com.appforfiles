@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Access Denied</title>
+</head>
+
+<body>
+	<script>
+		window.setTimeout(function() {
+			window.location.href = "http://localhost:8091/app/user/dashboard";
+		}, 2000);
+	</script>
+
+	<h3 th:if="${message != null}" th:utext="${message}"></h3>
+
+	<div th:if="${userInfo != null}" th:utext="${userInfo}" style="color: red;"></div>
+
+</body>
+
+</html>

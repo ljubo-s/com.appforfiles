@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style th:replace="user/shared/style"></style>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+
+	<div class="wrapper">
+
+		<div th:replace="user/shared/header"></div>
+
+		<div th:replace="user/shared/left_side"></div>
+
+		<!-- Content Wrapper. Contains page content -->
+		<div class="content-wrapper">
+			<div layout:fragment="content"></div>
+		</div>
+		<!-- /.content-wrapper -->
+
+		<div th:replace="user/shared/footer"></div>
+
+		<div layout:fragment="script"></div>
+
+		<div th:replace="user/shared/file_script"></div>
+
+	</div>
+</body>
+</html>
