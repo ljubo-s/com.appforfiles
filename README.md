@@ -37,8 +37,8 @@
   <br>&nbsp;&nbsp;&nbsp;&nbsp; 
   and run: `java -jar com.appforfiles-0.1.jar`
   <br>&nbsp;
-  
-  - **[Web app link](http://185.2.102.108:8091/app/login)**<br>
+  - Try<br>
+   [http://185.2.102.108:8091/app](http://185.2.102.108:8091/app)<br><br>
     username:admin<br>
     password:K65HC&x'NBSu5V(m<br>
     username:user<br>
